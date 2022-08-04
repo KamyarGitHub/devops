@@ -1,6 +1,6 @@
 # Get the base image
 FROM ubuntu:22.04
-LABEL Description="apache2" Vendor=“Kamyar@Aslanihotmail.com"
+LABEL Description="apache2" Vendor=“Kamyar.Aslani@hotmail.com"
 # Install all packages
 RUN apt-get udate && apt-get -y upgrade && apt-get install -y apache2
 # adding some content for Apache server
