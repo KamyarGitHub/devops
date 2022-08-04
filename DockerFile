@@ -2,7 +2,7 @@
 FROM ubuntu:22.04
 LABEL Description="apache2" Vendor=“Kamyar.Aslani@hotmail.com"
 # Install all packages
-RUN apt- udate && apt -y upgrade && apt install -y apache2
+RUN apt udate && apt -y upgrade && apt install -y apache2
 # adding some content for Apache server
 RUN echo "This is a test docker" > /var/www/html/index.html
 # Copying setting file & adding some content to be served by apache
